@@ -1,0 +1,55 @@
+body {
+  background-color: #00adb5;
+  font-family: "Space Mono", monospace;
+}
+
+/* HEADER */
+header {
+  color: #393e46;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.logo {
+  height: 40px;
+  background-color: #00adb5;
+  margin-left: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navi {
+  color: #eeeeee;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 700px;
+  font-size: 15px;
+}
+
+.navi li {
+  /*width: 200px; */
+  text-decoration: none;
+}
+
+/* ABOUT */
+.photo {
+  height: 300px;
+  margin-top: 200px;
+  margin-right: 500px;
+  border-radius: 40px;
+  margin-bottom: 400px;
+}
+
+/* FOOTER */
+.social {
+  display: flex;
+  justify-content: space-between;
+}
