@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    height: auto;
+    position: relative;
+    background-color: #393e46;
+    margin-top: 100px;
+    padding-left: 20px;
+  }
+  
+  .column img {
+    width: 100%;
+    height: 100%;
+  }
+
+  section {
+    padding: 80px 4%;
+    transition: .2s;
+  }
